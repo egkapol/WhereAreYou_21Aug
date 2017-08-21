@@ -15,6 +15,7 @@
 
         <!--Lat-->
         <TextView
+            android:id="@+id/txtLat"
             android:textSize="@dimen/h2"
             android:text="Lat = xxx.xxxx"
             android:layout_width="wrap_content"
@@ -22,6 +23,7 @@
 
         <!--Lng-->
         <TextView
+            android:id="@+id/txtLng"
             android:textSize="@dimen/h2"
             android:text="Lng = yyy.yyyy"
             android:layout_width="wrap_content"
@@ -30,6 +32,7 @@
 
         <!--Button-->
         <Button
+            android:id="@+id/btnSent"
             android:text="Sent"
             android:layout_width="match_parent"
             android:layout_height="wrap_content" />
